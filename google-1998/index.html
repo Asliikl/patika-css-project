@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>Google!</title>  
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .logo img {
+            width: 272px;
+            height: auto;
+        }
+
+        .search-box {
+            background-color: #EEEEEE;
+            border-radius: 2px;
+            width: 70%;
+            max-width: 500px;
+        }
+
+        .search-box input[type="text"] {
+            width: 80%;
+            padding: 5px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .search-box input[type="submit"] {
+            padding: 8px;
+            font-size: 14px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .search-box input[type="submit"]:hover {
+            background-color: #e8e8e8;
+        }
+
+        table {
+            border-collapse: separate;
+            text-indent: initial;
+            line-height: normal;
+            font-weight: normal;
+            font-size: medium;
+            color: #ffffff;
+            text-align: start;
+            border-spacing: 2px;
+            white-space: normal;
+            font-variant: normal;
+            margin-top: 40px;
+            width: 90%;
+            max-width: 900px;
+        }
+
+        td {
+            background-color: rgb(126, 229, 218);
+            padding: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            font-size: 12px; 
+            color: white;
+        }
+
+        td a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        td a:hover {
+            text-decoration: underline;
+        }
+
+        .email-box input[type="text"] {
+            padding: 10px;
+            width: 80%;
+            font-size: 14px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .email-box input[type="submit"] {
+            padding: 10px 20px;
+            font-size: 14px;
+            border-radius: 5px;
+            background-color: #f1f1f1;
+            border: 1px solid #ccc;
+            cursor: pointer;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 12px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo">
+            <img src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg" alt="Google!">
+        </div>
+
+        <div class="search-box">
+            <form method="GET" action="/web/19981202230410/http://www.google.com/search">
+                <p>Search the web using Google!</p>
+                <input type="text" name="q" value="" size="40"><br>
+                <input type="submit" value="Google Search">
+                <input type="submit" name="sa" value="I'm feeling lucky"><br>
+            </form>
+        </div>
+
+        <table>
+            <tr>
+                <td>
+                    <p><strong>Special Searches</strong></p>
+                    <a href="/web/19981202230410/http://www.google.com/stanford">Stanford Search</a><br>
+                    <a href="/web/19981202230410/http://www.google.com/linux">Linux Search</a><br>
+                </td>
+
+                <td>
+                    <p><strong>More Information</strong></p>
+                    <a href="help.html">Help!</a><br>
+                    <a href="about.html">About Google!</a><br>
+                    <a href="company.html">Company Info</a><br>
+                    <a href="stickers.html">Google! Logos</a><br>
+                </td>
+
+                <td>
+                    <p><strong>Get Google!</strong><br>Updates monthly:</p>
+                    <form method="GET" action="https://web.archive.org/web/19981202230410/http://www.findmail.com/cgi-bin/subscribe.py">
+                        <input type="text" name="emailaddr" value="your e-mail"><br>
+                        <input type="submit" name="SubmitAction" value="Subscribe">
+                    </form>
+                    <p><a href="https://web.archive.org/web/19981202230410/http://www.findmail.com/list/google-friends/">Archive</a></p>
+                </td>
+            </tr>
+        </table>
+
+        <footer>
+            <p>&copy; 1998 Google Inc.</p>
+        </footer>
+
+    </div>
+</body>
+</html>
