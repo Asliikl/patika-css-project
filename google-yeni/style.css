@@ -1,0 +1,169 @@
+.header {
+    list-style-type: none;
+    margin: 10px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.headerli {
+    margin: 0 8px;
+}
+
+.headerli a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.headerli a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    text-align: center;
+    margin: 50px auto; 
+}
+
+.search-area {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    height: 44px;
+    width: 582px;
+    margin: 0 auto;
+    align-items: center;
+    padding-right: 10px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.search-area:hover {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.24), 0 2px 5px rgba(0, 0, 0, 0.19);
+}
+
+.voicelogo {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.voicelogo img {
+    width: 20px; 
+    height: 20px;
+}
+
+
+.search {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px;
+}
+
+.search-img {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+}
+
+.search-img span {
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+}
+
+.input-enter {
+    display: flex;
+    flex: 1;
+}
+
+.input-area {
+    flex: 1;
+    height: 34px;
+    font-size: 16px;
+}
+
+.input {
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.87);
+    font: 16px Arial, sans-serif;
+    line-height: 34px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    text-align: start;
+    height: 34px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+}
+
+.googlesearch, .feelinglucky {
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 140px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    background-color: #f8f8f8;
+    border: 1px solid #dfe1e5;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.googlesearch:hover, .feelinglucky:hover {
+    background-color: #f1f1f1;
+}
+
+.footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #dfe1e5;
+    border-top: 1px solid #dadce0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.footerli {
+    float: left;
+    list-style: none;
+}
+
+.footerli a {
+    display: block;
+    color: #70757a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.footerli a:hover {
+    text-decoration: underline;
+}
+
+.footerli:last-child {
+    float: right;
+    margin-right: 35px;
+}
