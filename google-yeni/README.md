@@ -13,3 +13,5 @@ This project is a simple Google search page clone that mimics the design and fun
 ## Technologies Used
 - HTML
 - CSS
+
+![Ekran Görüntüsü 1](assets/web.png)
